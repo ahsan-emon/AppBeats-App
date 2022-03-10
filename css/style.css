@@ -1,0 +1,35 @@
+header {
+  background-image: url(../images/hero-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 660px;
+  z-index: 0;
+}
+header::after {
+  position: absolute;
+  content: "";
+  background-image: linear-gradient(
+    to left,
+    rgba(50, 100, 245, 0.9),
+    rgba(74, 84, 232, 0.88),
+    rgba(91, 66, 219, 0.85),
+    rgba(104, 44, 203, 0.88),
+    rgba(114, 2, 187, 0.9)
+  );
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.header-wave-line {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 99;
+}
+.common-btn:hover {
+  transform: scale(1) translateY(-4px) translateZ(20px);
+}
