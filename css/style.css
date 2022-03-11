@@ -1,3 +1,14 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+/* common  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header start  */
 header {
   background-image: url(../images/hero-bg-3.jpg);
   background-repeat: no-repeat;
@@ -6,6 +17,7 @@ header {
   position: relative;
   min-height: 660px;
   z-index: 0;
+  margin-bottom: 50px;
 }
 header::after {
   position: absolute;
@@ -24,12 +36,147 @@ header::after {
   left: 0;
   z-index: -1;
 }
+header .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
 .header-wave-line {
   position: absolute;
   bottom: 0px;
   left: 0;
-  z-index: 99;
+  z-index: 9;
+}
+.header-content {
+  min-height: 500px;
+}
+.header-content h1 {
+  font-size: 54px;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.header-content p {
+  color: #fff;
+  padding-bottom: 35px;
+}
+.common-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: 0.4s all ease-in-out;
+  font-weight: 600;
 }
 .common-btn:hover {
-  transform: scale(1) translateY(-4px) translateZ(20px);
+  background-color: #fff;
+  color: rgba(114, 2, 187, 0.9);
+  transform: scale(1) translateY(-4px);
+}
+.download-btn {
+  color: rgba(114, 2, 187, 0.9);
+  background-color: #fff;
+}
+.download-btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.img-content {
+  position: absolute;
+  left: 10%;
+  bottom: -500px;
+  z-index: 99;
+  text-align: center;
+}
+.img-mask {
+  position: relative;
+}
+.video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 95%;
+  z-index: -1;
+}
+/* trusted company start */
+.trusted-company {
+  padding-bottom: 70px;
+}
+.trusted-company p {
+  color: #707070;
+  font-size: 20px;
+}
+/* worl fastest company start */
+.world-fastest-company {
+  padding: 80px 0;
+}
+.world-fastest-company h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+}
+.world-fastest-company p {
+  color: #707070;
+  font-size: 20px;
+  width: 65%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.world-fastest-company .help-card {
+  box-shadow: 0 0 10px #00000029;
+  border-radius: 6px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s all ease-in-out;
+}
+.help-card::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #7202bb;
+}
+.blue-line::after {
+  background-color: #3264f5;
+}
+.help-card:hover {
+  transform: translateY(-10px);
+}
+.help-card .help-card-img {
+  width: 25%;
+}
+.help-card h3 {
+  font-size: 21px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.help-card p {
+  padding-bottom: 10px;
+}
+.help-card .help-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.help-card .help-btn:focus {
+  box-shadow: none;
+}
+.help-card .red-btn {
+  color: #ff164e;
+  background: #ffdce5;
+}
+.help-card .purple-btn {
+  color: #9123ff;
+  background-color: #efdeff;
+}
+.help-card .green-btn {
+  color: #2ebf6d;
+  background-color: #e0f5e9;
+}
+.help-card .orange-btn {
+  color: #ff7c3f;
+  background-color: #ffebe2;
 }
