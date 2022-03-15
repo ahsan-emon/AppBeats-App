@@ -180,3 +180,69 @@ header .navbar-light .navbar-nav .nav-link {
   color: #ff7c3f;
   background-color: #ffebe2;
 }
+/* services start  */
+.services {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+.service-options {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.service-options li {
+  margin-right: 30px;
+}
+.service-options li:last-child {
+  margin-right: 0px;
+}
+.service-common-btn i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.service-common-btn {
+  font-weight: 600;
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 2px solid #c4c4c4;
+  border-radius: 0;
+}
+.service-common-btn:hover {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+.service-common-btn:focus {
+  box-shadow: none;
+  border-color: #6730e3;
+  color: #6730e3;
+}
+.technology-btn i {
+  color: #ff164e;
+}
+.wifi-btn i {
+  color: #9123ff;
+}
+.shopping-btn i {
+  color: #5951f7;
+}
+.store-btn i {
+  color: #ff7c3f;
+}
+.learn-more {
+  text-decoration: none;
+}
+.services h1 {
+  font-size: 60px;
+  color: #7202bb;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.services h3 {
+  font-weight: 600;
+  color: #000;
+}
+.services p {
+  color: #707070;
+}
+.learn-more:hover {
+  color: #7e25bb;
+}

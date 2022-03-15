@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "number": "01.",
+    "name": "Fully Branded Portal",
+    "anchor": "Learn more about this",
+    "para": "Assertively incentivize long-term high-impact scenarios whereas accurate imperatives.
+
+Quickly communicate multimedia based materials for enabled channels. Seamlessly disintermediate robust best practices for B2C e-tailers. Efficiently procrastinate prospective experiences.",
+  },
+  {
+    "id": 2,
+    "number": "02.",
+    "name": "Returns to Exchanges",
+    "anchor": "Learn more about this",
+    "para": "Quickly communicate multimedia based materials for enabled channels. Turn Returns to Exchanges Seamlessly disintermediate robust best practices for B2C e-tailers. Efficiently procrastinate prospective experiences.
+
+Dramatically reconceptualize user-centric expertise whereas competitive synergy.",
+  },
+  {
+    "id": 3,
+    "number": "03.",
+    "name": "Multichannel Returns",
+    "anchor": "Learn more about this",
+    "para": "Quickly communicate multimedia based materials to team driven infrastructures. Seamlessly disintermediate robust best practices for B2C e-tailers. Efficiently procrastinate prospective experiences.
+
+Competently disintermediate web-enabled growth strategies whereas professional applications.",
+  },
+  {
+    "id": 4,
+    "number": "04.",
+    "name": "Set goals & timelines",
+    "anchor": "Learn more about this",
+    "para": "Quickly communicate multimedia based materials for enabled channels. Seamlessly disintermediate robust best practices for B2C e-tailers. Efficiently procrastinate prospective experiences.
+
+Continually architect multifunctional schemas rather than superior users. Conveniently scale.",
+  },
+]
